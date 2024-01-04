@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    background-color: rgb(194, 192, 192);
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    border: 3px solid rgb(205, 151, 50);
+    background-color: rgb(157, 222, 223);
+    border-radius: 10px;
+    padding: 10px 10px 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    font-weight: 700;
+    font-size: 30px;
+}
+input,textarea{
+    border: 3px solid rgb(205, 151, 50);
+    background-color: rgb(198, 221, 221);
+    border-radius: 10px;
+    padding: 15px ;
+    width: 100%;
+    
+}
+button{
+    border: 3px solid rgb(205, 151, 50);
+    background-color: rgb(157, 222, 223);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+    font-weight: 600;
+
+}
+.footer{
+    border-top: 2px dotted rgb(238, 53, 53);
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .about {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
+    width: 60%;
+
+}
+.about img{
+    width: 230px;
+    height: 300px;
+    border: 3px solid rgb(205, 151, 50);
+    border-radius: 200px;
+    box-shadow: 12px 12px 15px gray;
+}
+.about .description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section{
+    width: 60%;
+}
+.section .card{
+    display: flex;
+    border: 3px solid rgb(205, 151, 50);
+    background-color: rgb(157, 222, 223);
+    margin: 40px;
+    padding: 40px;
+    border-radius: 20px;
+}
+.section .card .left{
+    flex: 3;
+    
+
+}
+.section .card .right{
+    flex: 2;
+    
+}
